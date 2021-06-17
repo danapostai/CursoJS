@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Aprendiendo jQuery</title>
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/02-eventos.js"></script>
+        <style>
+           #caja{
+              width: 250px;
+              height: 250px;
+              border: 2px solid black;
+              background: yellow;
+              transition: 300ms all;
+           }
+           /*
+           #caja:hover{
+              
+              background: red;
+              cursor: pointer;
+           }
+           */
+           input{
+              padding: 10px;
+              width: 300px;
+              font-size: 20px;
+           }
+           #datos{
+               width: 250px;
+               height: 50px;
+               border: 4px solid blue;
+               padding: 10px;
+               margin-top: 10px;
+               display: none;
+           }
+           #sigueme{
+               width: 25px;
+               height: 25px;
+               position: absolute;
+               display: block;
+               background: yellow;
+               opacity: 0.5;
+               border: 3px solid black;
+               border-radius: 999px;
+
+           }
+           
+        </style>
+    </head>
+
+    <body>
+        <h1>Aprendiendo jQuery con Udemy -- Eventos </h1>
+        <div id='sigueme'>
+         soy una mouse
+         </div>
+        <form>
+           <input type="text" id='nombre'>
+        </form>
+        <div id='datos'>
+         soy una datos
+         </div>
+         <div id='caja'>
+            soy una caja
+         </div>
+    </body>
+</html>
