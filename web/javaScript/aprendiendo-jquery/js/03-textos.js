@@ -12,11 +12,6 @@ $(document).ready(function(){
      reloadLinks();
    });
 
-
-
-
-   
-  
 });
 
 function reloadLinks(){
@@ -25,6 +20,7 @@ function reloadLinks(){
          var dom = $(this);
          var enlace = dom.attr('href');
          dom.attr('target','_blank');
+         
          dom.text(enlace);
       })
 

@@ -34,7 +34,7 @@ $(document).ready(function() {
    $(this).css("background", "green")
           .css('color','yellow')
    })
-
+   
    //focus y blur
 
    var dive =  $('#nombre');
